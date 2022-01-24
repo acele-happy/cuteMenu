@@ -19,4 +19,5 @@
 .icons-container > *:hover, .active{
     background: orange;
     color: #fff;
+    cursor: pointer;
 }

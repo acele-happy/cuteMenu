@@ -26,7 +26,7 @@ const Icons = () =>{
         <IoNewspaperOutline onClick={()=>history.push("/aboutUs")} />
         </span>
         <span>
-        <AiOutlineSetting />
+        <AiOutlineSetting onClick={()=>history.push('/settings')}/>
         </span>
     </div>
     )

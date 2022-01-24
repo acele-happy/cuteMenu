@@ -1,0 +1,75 @@
+
+.Container{
+    display: flex;
+}
+
+.Container .div1{
+    width: 15%;
+}
+
+.Container .div2{
+    width: 55%;
+    background: rgb(246, 246, 246);
+    height: 160vh;
+}
+
+.Container .div3{
+    width: 30%;
+}
+
+.alignItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.menuCategory{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuFullView{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconBoxContainer{
+    color: orange;
+}
+
+.iconBox{
+    padding: 3px;
+    border-radius: 3px;
+    background: orange;
+    color: #fff;
+}
+
+.div1{
+    position: relative;
+    top: -130px;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0 10px 15px rgba(255, 166, 0,0.4); */
+    height: 100vh;
+}
+
+.div3flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.component-center{
+    position: relative;
+    left: 40px;
+}
+.bottom{
+    margin-bottom: 20px;
+}
+
+.buttonPosition{
+    position: relative;
+    top: 330px;
+    right: 160px;
+}

@@ -1,0 +1,22 @@
+.icons-container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.icons-container> span{
+    font-size: 30px;
+    /* margin-bottom: 20px; */
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-container > *:hover, .active{
+    background: orange;
+    color: #fff;
+}

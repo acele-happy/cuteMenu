@@ -1,0 +1,38 @@
+.recipeContainer{
+    width: 230px;
+    height: 200px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-over{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+.div-inside{
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+}
+
+.recipeContainer .div-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: orange;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 170px;
+    bottom: 90px;
+}

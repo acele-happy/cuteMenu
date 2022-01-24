@@ -1,0 +1,44 @@
+.mainContainer{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    padding: 10px;
+}
+
+.for-flex{
+    display: flex;
+}
+
+.for-flex p{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.for-flex-small{
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}
+
+.for-flex-small p{
+    margin-right: 60px;
+}
+
+.imageContainer{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(100, 149, 237,0.2) ;
+    padding: 10px;
+}
+
+.imageContainer img{
+    width: 55px;
+    height: 50px;
+    border-radius: 50%;
+}

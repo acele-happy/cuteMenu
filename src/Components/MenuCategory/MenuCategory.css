@@ -1,0 +1,70 @@
+
+.card{
+    width: 130px;
+    height: 200px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card .smallCircle{
+    background: orange;
+}
+.card .smallCircle .iconStyle{
+    color: #fff;
+}
+
+.card:hover{
+    background: orange;
+}
+
+.card:hover .color-size{
+    color: #fff;
+}
+
+.card:hover .smallCircle{
+    background: #fff;
+}
+.card:hover .smallCircle .iconStyle{
+    color: orange;
+}
+
+
+.bigCircle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.smallCircle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.color-size{
+    color: #333;
+    font-weight: bold;
+}
+
+.pizza{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.iconStyle{
+    color: orange;
+    margin-left: 13px;
+}

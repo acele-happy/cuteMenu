@@ -133,7 +133,7 @@ class Layout extends Component {
         </div>
         <div className="div2">
           <div className="alignItems">
-            <h2>Today Menu :)</h2>
+            <h2>Today Menu 😊</h2>
             <Search />
           </div>
           <Svg />
@@ -166,10 +166,13 @@ class Layout extends Component {
                 recipeName={foodtype.name}
                 imgSrc={pizzaa}
               />
-            ))}
+            ))}  
           </div>
         </div>
         <div className="div3">
+          <div className="cards">
+              
+          </div>
           <div className="div3flex">
             <h3>Order Menu</h3>
             <p className="iconBoxContainer">

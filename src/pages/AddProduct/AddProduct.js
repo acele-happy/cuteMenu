@@ -52,7 +52,7 @@ const AddProduct = ()=>{
 
               {
     fileUp?
-    <img className="imgPreview" src={fileUp}/>
+    <img className="imgPreview" alt="img" src={fileUp}/>
     :""
 
 }

@@ -11,7 +11,7 @@ const Icons = () =>{
     return(
         <div className="icons-container">
         <span>
-        <AiOutlineHome />
+        <AiOutlineHome onClick={()=>history.push("/")}/>
         </span>
         <span onClick={()=>history.push("/addProduct")}>
             <AiOutlinePlus />

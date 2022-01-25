@@ -3,7 +3,7 @@ import './OrderMenu.css'
 import pizzaa from '../../assets/pizzaa.jpg'
 import {FaTimes} from 'react-icons/fa'
 
-const orderMenu = ()=>{
+const OrderMenu = ()=>{
     return(
         <div className="mainContainer">
             <div className="for-flex">
@@ -21,4 +21,4 @@ const orderMenu = ()=>{
     )
 }
 
-export default orderMenu
+export default OrderMenu

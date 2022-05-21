@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import "./Layout.css";
-import Svg from "../Components/Svg/Svg";
-import Search from "../Components/Search/Search";
 import { MdNavigateNext } from "react-icons/md";
 import MenuFullView from "../Components/MenuFullView/MenuFullView";
 import MenuCategory from "../Components/MenuCategory/MenuCategory";
@@ -134,9 +132,7 @@ class Layout extends Component {
         <div className="div2">
           <div className="alignItems">
             <h2>Today Menu 😊</h2>
-            <Search />
           </div>
-          <Svg />
 
           <div className="alignItems">
             <h2>Menu Category</h2>
